@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "student",
+ "creation": "2025-11-13 10:00:20.285120",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "student",
+  "percentage",
+  "library_books"
+ ],
+ "fields": [
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Int",
+   "label": "percentage"
+  },
+  {
+   "fieldname": "student",
+   "fieldtype": "Link",
+   "label": "student",
+   "options": "Student Collection"
+  },
+  {
+   "fieldname": "library_books",
+   "fieldtype": "Table MultiSelect",
+   "label": "Library Books",
+   "options": "School Result Book"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-13 14:43:14.149452",
+ "modified_by": "Administrator",
+ "module": "library management",
+ "name": "School result",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

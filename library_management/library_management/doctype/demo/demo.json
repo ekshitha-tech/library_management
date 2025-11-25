@@ -1,0 +1,300 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:name1",
+ "creation": "2025-10-15 10:36:23.394638",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "id",
+  "name1",
+  "email_id",
+  "phone_number",
+  "website_url",
+  "description",
+  "details",
+  "text_info",
+  "markdown_note",
+  "password_field",
+  "percentage",
+  "rating",
+  "read_only_example",
+  "currency_value",
+  "float_value",
+  "integer_value",
+  "duration_field",
+  "date_field",
+  "date_time_field",
+  "time_field",
+  "upload_file",
+  "upload_image",
+  "display_image",
+  "column_1_column",
+  "signature_field",
+  "rich_text_editor",
+  "code_editor",
+  "html_viewer",
+  "section_1_section",
+  "geolocation_map",
+  "color_picker",
+  "barcode_field",
+  "json_field",
+  "tab_2_tab",
+  "action_button",
+  "table",
+  "multiple_library"
+ ],
+ "fields": [
+  {
+   "fieldname": "name1",
+   "fieldtype": "Data",
+   "label": "Name",
+   "options": "Name",
+   "unique": 1
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email ID",
+   "options": "Email"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Data",
+   "label": "Phone number",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "website_url",
+   "fieldtype": "Data",
+   "label": "website URL",
+   "options": "https://google.com"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description",
+   "options": "short paragraph"
+  },
+  {
+   "fieldname": "details",
+   "fieldtype": "Long Text",
+   "label": "Details",
+   "options": "Long-form content"
+  },
+  {
+   "fieldname": "text_info",
+   "fieldtype": "Text",
+   "label": "Text Info",
+   "options": "Generic text"
+  },
+  {
+   "fieldname": "markdown_note",
+   "fieldtype": "Markdown Editor",
+   "label": "Markdown note",
+   "options": "Markdown support"
+  },
+  {
+   "fieldname": "password_field",
+   "fieldtype": "Password",
+   "label": "Password Field ",
+   "options": "Hidden input"
+  },
+  {
+   "fieldname": "percentage",
+   "fieldtype": "Percent",
+   "label": "percentage",
+   "options": "0-100 range"
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Rating",
+   "label": "rating"
+  },
+  {
+   "fieldname": "read_only_example",
+   "fieldtype": "Read Only",
+   "label": "read only example",
+   "options": "Display fixed data"
+  },
+  {
+   "fieldname": "currency_value",
+   "fieldtype": "Currency",
+   "label": "currency value",
+   "options": "\u20b9 or $"
+  },
+  {
+   "fieldname": "float_value",
+   "fieldtype": "Float",
+   "label": "float value",
+   "options": "9 decimals allowed"
+  },
+  {
+   "fieldname": "integer_value",
+   "fieldtype": "Int",
+   "label": "integer value",
+   "options": "whole number"
+  },
+  {
+   "fieldname": "duration_field",
+   "fieldtype": "Duration",
+   "label": "Duration Field",
+   "options": "Time span format"
+  },
+  {
+   "fieldname": "date_field",
+   "fieldtype": "Date",
+   "label": "Date Field",
+   "options": "calendar picker"
+  },
+  {
+   "fieldname": "date_time_field",
+   "fieldtype": "Datetime",
+   "label": "Date time Field",
+   "options": "Date+Time"
+  },
+  {
+   "fieldname": "time_field",
+   "fieldtype": "Time",
+   "label": "Time Field",
+   "options": "HH:MM:SS format"
+  },
+  {
+   "fieldname": "upload_file",
+   "fieldtype": "Attach",
+   "label": "Upload File",
+   "options": "File upload"
+  },
+  {
+   "fieldname": "upload_image",
+   "fieldtype": "Attach Image",
+   "label": "Upload image",
+   "options": "Image only"
+  },
+  {
+   "fieldname": "display_image",
+   "fieldtype": "Image",
+   "label": "Display Image",
+   "options": "Linked to upload image"
+  },
+  {
+   "fieldname": "column_1_column",
+   "fieldtype": "Column Break",
+   "label": "column 1",
+   "options": "split layout"
+  },
+  {
+   "fieldname": "signature_field",
+   "fieldtype": "Signature",
+   "label": "signature field",
+   "options": "Digital signature input"
+  },
+  {
+   "fieldname": "rich_text_editor",
+   "fieldtype": "Text Editor",
+   "label": "Rich text editor",
+   "options": "WYSIWYG"
+  },
+  {
+   "fieldname": "code_editor",
+   "fieldtype": "Code",
+   "label": "Code Editor",
+   "options": "Python/js syntax highlighting"
+  },
+  {
+   "fieldname": "html_viewer",
+   "fieldtype": "HTML",
+   "label": "HTML Viewer",
+   "options": "Add static HTML via Options"
+  },
+  {
+   "fieldname": "section_1_section",
+   "fieldtype": "Section Break",
+   "label": "section 1",
+   "options": "visual grouping"
+  },
+  {
+   "fieldname": "geolocation_map",
+   "fieldtype": "Geolocation",
+   "label": "Geolocation map",
+   "options": "Interactive map"
+  },
+  {
+   "fieldname": "color_picker",
+   "fieldtype": "Color",
+   "label": "Color Picker",
+   "options": "Choose color"
+  },
+  {
+   "fieldname": "barcode_field",
+   "fieldtype": "Barcode",
+   "label": "Barcode Field",
+   "options": "Generates barcode image"
+  },
+  {
+   "fieldname": "json_field",
+   "fieldtype": "JSON",
+   "label": "JSON field",
+   "options": "JSON input farmat"
+  },
+  {
+   "fieldname": "tab_2_tab",
+   "fieldtype": "Tab Break",
+   "label": "Tab 2",
+   "options": "Another tab"
+  },
+  {
+   "fieldname": "action_button",
+   "fieldtype": "Button",
+   "label": "Action Button",
+   "options": "Custom Script trigger"
+  },
+  {
+   "fieldname": "table",
+   "fieldtype": "Table",
+   "label": "Table",
+   "options": "library"
+  },
+  {
+   "fieldname": "multiple_library",
+   "fieldtype": "Table MultiSelect",
+   "label": "multiple library",
+   "options": "library"
+  },
+  {
+   "default": "##",
+   "fieldname": "id",
+   "fieldtype": "Int",
+   "label": "ID",
+   "unique": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-11-04 12:24:07.947589",
+ "modified_by": "Administrator",
+ "module": "library management",
+ "name": "Demo",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

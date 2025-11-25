@@ -1,0 +1,12 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>📚 Librarian Dashboard</h1>
+<p>Welcome {{ frappe.session.user }}!</p>
+
+<ul>
+  <li><a href="/library-home">🏠 Library Home</a></li>
+  <li><a href="/manage-books">Manage Books</a></li>
+  <li><a href="/issued-books">View Issued Books</a></li>
+</ul>
+{% endblock %}

@@ -1,0 +1,18 @@
+{% extends "templates/web.html" %}
+
+{% block title %}{{ title }}{% endblock %}
+
+{% block page_content %}
+<h2>{{ title }}</h2>
+
+<div class="container">
+  {% include "library_management/templates/includes/profile_card.html" %}
+</div>
+
+<hr>
+<h4>Navigation Links</h4>
+{% if add_next_prev_links %}
+  <a href="{{ add_next_prev_links.prev.route }}">← {{ add_next_prev_links.prev.label }}</a> |
+  <a href="{{ add_next_prev_links.next.route }}">{{ add_next_prev_links.next.label }} →</a>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,22 @@
+---
+title: Introduction
+metatags:
+  description: This is description for the introduction page
+---
+
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>Introduction</h1>
+
+<p>
+Welcome to our introduction page!  
+This page uses <b>frontmatter</b> to set the <code>title</code> and <code>meta description</code>
+without writing any Python code.
+</p>
+
+<p>
+You can view these meta tags in your browser’s “View Source” — 
+you’ll see the title as “Introduction” and the description in the head section.
+</p>
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>Testing Asset Bundling</h1>
+
+{{ include_style('style.bundle.css') }}
+{{ include_script('main.bundle.js') }}
+
+<p>If you see color changes and a console message — bundling worked!</p>
+{% endblock %}

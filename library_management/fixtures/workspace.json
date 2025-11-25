@@ -1,0 +1,46 @@
+[
+ {
+  "charts": [],
+  "content": "[{\"id\":\"H3may85o_X\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Library Dashboard</span>\",\"col\":12}},{\"id\":\"6OlNnUWjEb\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Library Book\",\"col\":3}}]",
+  "custom_blocks": [],
+  "docstatus": 0,
+  "doctype": "Workspace",
+  "for_user": "",
+  "hide_custom": 0,
+  "icon": "solid-success",
+  "indicator_color": "green",
+  "is_hidden": 0,
+  "label": "Library DashBoard",
+  "links": [],
+  "modified": "2025-11-11 11:01:53.737363",
+  "module": null,
+  "name": "Library DashBoard",
+  "number_cards": [],
+  "parent_page": "",
+  "public": 1,
+  "quick_lists": [],
+  "restrict_to_domain": null,
+  "roles": [],
+  "sequence_id": 23.0,
+  "shortcuts": [
+   {
+    "color": "Blue",
+    "doc_view": "List",
+    "format": null,
+    "icon": null,
+    "kanban_board": null,
+    "label": "Library Book",
+    "link_to": "Library Book",
+    "parent": "Library DashBoard",
+    "parentfield": "shortcuts",
+    "parenttype": "Workspace",
+    "report_ref_doctype": null,
+    "restrict_to_domain": null,
+    "stats_filter": "[]",
+    "type": "DocType",
+    "url": null
+   }
+  ],
+  "title": "Library DashBoard"
+ }
+]

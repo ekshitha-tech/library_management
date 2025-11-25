@@ -1,0 +1,17 @@
+{% extends "templates/web.html" %}
+
+{% block title %}My Profile{% endblock %}
+
+{% block page_content %}
+<h2>My Profile</h2>
+
+{% set profile = {
+  "name": "Shridevi Shrishail Madiwalar",
+  "email": "shridevi@example.com",
+  "role": "Library Member",
+  "about": "I’m learning how to build Frappe web pages and explore portal features."
+} %}
+
+<!-- Reusable template include -->
+{% include "library_management/templates/includes/profile_card.html" %}
+{% endblock %}

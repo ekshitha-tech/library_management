@@ -161,7 +161,13 @@ get_website_user_home_page = "library_management.utils.get_home_page"
 # 		"library_management.tasks.monthly"
 # 	],
 # }
-
+scheduler_events = {
+    "cron": {
+        "*/1 * * * *": [
+            "library_management.library_management.notification_jobs.send_email_every_1_hour"
+        ]
+    }
+}
 # Testing
 # -------
 
